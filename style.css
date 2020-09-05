@@ -1,0 +1,79 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+  position: absolute;
+  
+  color: rgb(238, 255, 205);
+  font-size: 30px;
+  margin-left: 200px;
+  margin-top: 1em;
+}
+
+#buttons{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 4rem;
+}
+
+#btn1{
+    margin-right: 80px;
+}
+h1{
+    text-align: center;
+    margin-top: 10px;
+}
+
+.social:hover {
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -o-transform: scale(1.1);
+}
+.social {
+    -webkit-transform: scale(0.8);
+    /* Browser Variations: */
+    
+    -moz-transform: scale(0.8);
+    -o-transform: scale(0.8);
+    -webkit-transition-duration: 0.5s;
+    -moz-transition-duration: 0.5s;
+    -o-transition-duration: 0.5s;
+}
+
+/*
+   Multicoloured Hover Variations
+*/
+
+#social-fb:hover {
+    color: #3B5998;
+}
+#social-tw:hover {
+    color: #4099FF;
+}
+#social-gp:hover {
+    color: #d34836;
+}
+#social-em:hover {
+    color: #f39c12;
+}
+
+.instructions{
+    position: absolute;
+    right: 200px;
+}
+
+.center{
+    width:500
+}
+
+.button1{
+    display: block;
+    margin: auto;
+    margin-left: 700px;
+}
+.logo{
+    height: 50px;
+    width:50px
+}
